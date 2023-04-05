@@ -1,12 +1,19 @@
 ﻿namespace MyLib;
 
-public class Animal
+public delegate void AnimalDelegate(List<IAnimal> animals);
+
+public interface IAnimal
 {
-  public string? name { get; set; }
+  public string IntroduceAnimal();
+}
+
+public class Animal : IAnimal
+{
+  public string name { get; set; } = string.Empty;
   public int yearOfDiscovery { get; set; }
-  private protected static string? move;
-  private protected static string? breath;
-  private protected static string? reproduce;
+  private protected string? move;
+  private protected string? breath;
+  private protected string? reproduce;
 
   public string IntroduceAnimal()
   {
@@ -32,7 +39,7 @@ public class Animal
 
 public class Mamal : Animal
 {
-  static Mamal()
+  public Mamal()
   {
     move = "Walk";
     breath = "Lungs";
@@ -42,7 +49,7 @@ public class Mamal : Animal
 
 public class Bird : Animal
 {
-  static Bird()
+  public Bird()
   {
     move = "fly";
     breath = "Lungs";
@@ -53,7 +60,7 @@ public class Bird : Animal
 
 public class Fish : Animal
 {
-  static Fish()
+  public Fish()
   {
     move = "Swim";
     breath = "gills";

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FaqLBYlNrFMt+ZO87kKu7BU+SGsKQk0UYvHmAMvmejnjEv9YX6gntELl5DdE6MwENm/KB7fPyri5SJsOpHeqcg==",
+  "dgSpecHash": "iXN2JySejKrxvUcQjzAHCf7uWK2u+xATuOg01K5SwklvojGr9me0RT/HV68k/1mHPlUudaG6NXQz2I5KWgYbYA==",
   "success": true,
-  "projectFilePath": "/Users/lguedes/Dev/CSharp/Udemy/console/console.csproj",
+  "projectFilePath": "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/console/console.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

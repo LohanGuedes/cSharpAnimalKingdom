@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj": {}
+    "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/MyLib/MyLib.csproj": {}
   },
   "projects": {
-    "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj": {
+    "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/MyLib/MyLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj",
+        "projectUniqueName": "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/MyLib/MyLib.csproj",
         "projectName": "MyLib",
-        "projectPath": "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj",
+        "projectPath": "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/MyLib/MyLib.csproj",
         "packagesPath": "/Users/lguedes/.nuget/packages/",
-        "outputPath": "/Users/lguedes/Dev/CSharp/Udemy/MyLib/obj/",
+        "outputPath": "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/MyLib/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lguedes/.nuget/NuGet/NuGet.Config"

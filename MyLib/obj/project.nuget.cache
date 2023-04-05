@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ny5UYjgd/TaQcwRCtk66Fo47tWmT5C+6rB60/HDuIIQJf0toMtrP2BLur+0yqysnHrmZohQ/rvPH3fB59k76nw==",
+  "dgSpecHash": "+RS6T56l0UNEFb3yYdYN0oDinLIQxt3jhjVY8gPeYaHYaihIQS5/ZLBW7q07E+uvtHckaTwBe8G5VZunIhvI5g==",
   "success": true,
-  "projectFilePath": "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj",
+  "projectFilePath": "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/MyLib/MyLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

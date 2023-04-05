@@ -1,6 +1,13 @@
 ﻿using MyLib;
 
-Mamal myMamal = new Mamal();
+static void PrintAnimals(List<IAnimal> animals)
+{
+  foreach (IAnimal animal in animals)
+  {
+    Console.WriteLine(animal.IntroduceAnimal());
+  }
+}
+AnimalDelegate printer = PrintAnimals;
 
 var mamalsList = new List<Dictionary<string, object>>
 {
@@ -30,15 +37,16 @@ var fishesList = new List<Dictionary<string, object>>
 };
 
 List<Animal> animalsList = new List<Animal>();
-
 foreach (Dictionary<string, object> mamal in mamalsList)
 {
-  Mamal obj = new Mamal();
-  obj.name = (string)mamal["name"];
-  obj.yearOfDiscovery = (int)mamal["year"];
+  // One way of doing it. -> Properties 
+  Mamal obj = new Mamal
+  {
+    name = (string)mamal["name"],
+    yearOfDiscovery = (int)mamal["year"]
+  };
   animalsList.Add(obj);
 }
-
 foreach (Dictionary<string, object> bird in birdsList)
 {
   Bird obj = new Bird();
@@ -46,7 +54,6 @@ foreach (Dictionary<string, object> bird in birdsList)
   obj.yearOfDiscovery = (int)bird["year"];
   animalsList.Add(obj);
 }
-
 foreach (Dictionary<string, object> fish in fishesList)
 {
   Fish obj = new Fish();
@@ -55,5 +62,52 @@ foreach (Dictionary<string, object> fish in fishesList)
   animalsList.Add(obj);
 }
 
-foreach (Animal obj in animalsList)
-  Console.WriteLine(obj.IntroduceAnimal());
+Console.WriteLine("=======================Print ALL animals=======================");
+PrintAnimals(animalsList.ToList<IAnimal>());
+
+Console.WriteLine("\n\n\n================Print by year================");
+var yearSorted = from a in animalsList
+                 orderby a.yearOfDiscovery ascending
+                 select a;
+PrintAnimals(yearSorted.ToList<IAnimal>());
+
+Console.WriteLine("\n\n\n\n==============Print in alphabetical order=============");
+
+var alphaSorted = from a in animalsList
+                  orderby a.name ascending
+                  select a;
+
+PrintAnimals(alphaSorted.ToList<IAnimal>());
+
+Console.WriteLine("\n\n\n\n==============Print Lungh Breathers=============");
+// LINQ Method syntax https://www.tutorialsteacher.com/linq/linq-method-syntax
+var lungBreathers = animalsList
+.Where(animal => animal.BreathType().Contains("Lungs"))
+.ToList<Animal>();
+
+PrintAnimals(lungBreathers.ToList<IAnimal>());
+
+Console.WriteLine("\n\n\n\n==============Print Lungh Breathers and Egg reproducers=============");
+// LINQ Query syntax https://www.tutorialsteacher.com/linq/linq-query-syntax
+var layEggsNLungs = from animal in animalsList
+                    where animal.BreathType().Contains("Lungs") && animal.ReproduceType().Contains("eggs")
+                    select animal;
+
+PrintAnimals(layEggsNLungs.ToList<IAnimal>());
+
+Console.WriteLine("\n\n\n\n==============Print Lungh Breathers Named in 1758=============");
+var lunghBreathersNamedIn1758 = from a in animalsList
+                                where a.BreathType().Contains("Lungs") && a.yearOfDiscovery == 1758
+                                select a;
+
+PrintAnimals(lunghBreathersNamedIn1758.ToList<IAnimal>());
+
+Console.WriteLine("\n\n\n\n==============Print Lungh Breathers Named in 1758=============");
+var alphabeticalMamals = from a in animalsList
+                         orderby a.name ascending
+                         where a is Mamal
+                         select a;
+
+PrintAnimals(alphabeticalMamals.ToList<IAnimal>());
+
+

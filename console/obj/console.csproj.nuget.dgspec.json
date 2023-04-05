@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lguedes/Dev/CSharp/Udemy/console/console.csproj": {}
+    "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/console/console.csproj": {}
   },
   "projects": {
-    "/Users/lguedes/Dev/CSharp/Udemy/console/console.csproj": {
+    "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/console/console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lguedes/Dev/CSharp/Udemy/console/console.csproj",
+        "projectUniqueName": "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/console/console.csproj",
         "projectName": "console",
-        "projectPath": "/Users/lguedes/Dev/CSharp/Udemy/console/console.csproj",
+        "projectPath": "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/console/console.csproj",
         "packagesPath": "/Users/lguedes/.nuget/packages/",
-        "outputPath": "/Users/lguedes/Dev/CSharp/Udemy/console/obj/",
+        "outputPath": "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/console/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lguedes/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj": {
-                "projectPath": "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj"
+              "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/MyLib/MyLib.csproj": {
+                "projectPath": "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/MyLib/MyLib.csproj"
               }
             }
           }
@@ -61,14 +61,14 @@
         }
       }
     },
-    "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj": {
+    "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/MyLib/MyLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj",
+        "projectUniqueName": "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/MyLib/MyLib.csproj",
         "projectName": "MyLib",
-        "projectPath": "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj",
+        "projectPath": "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/MyLib/MyLib.csproj",
         "packagesPath": "/Users/lguedes/.nuget/packages/",
-        "outputPath": "/Users/lguedes/Dev/CSharp/Udemy/MyLib/obj/",
+        "outputPath": "/Users/lguedes/Dev/CSharp/cSharpAnimalKingdom/MyLib/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lguedes/.nuget/NuGet/NuGet.Config"
