@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/lguedes/Dev/CSharp/Udemy/console/console.csproj": {}
+  },
+  "projects": {
+    "/Users/lguedes/Dev/CSharp/Udemy/console/console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lguedes/Dev/CSharp/Udemy/console/console.csproj",
+        "projectName": "console",
+        "projectPath": "/Users/lguedes/Dev/CSharp/Udemy/console/console.csproj",
+        "packagesPath": "/Users/lguedes/.nuget/packages/",
+        "outputPath": "/Users/lguedes/Dev/CSharp/Udemy/console/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lguedes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj": {
+                "projectPath": "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj",
+        "projectName": "MyLib",
+        "projectPath": "/Users/lguedes/Dev/CSharp/Udemy/MyLib/MyLib.csproj",
+        "packagesPath": "/Users/lguedes/.nuget/packages/",
+        "outputPath": "/Users/lguedes/Dev/CSharp/Udemy/MyLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lguedes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

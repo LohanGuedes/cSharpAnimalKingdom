@@ -1,0 +1,12 @@
+/Users/lguedes/Dev/CSharp/Udemy/MyLib/obj/Debug/net7.0/MyLib.csproj.AssemblyReference.cache
+/Users/lguedes/Dev/CSharp/Udemy/MyLib/obj/Debug/net7.0/MyLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lguedes/Dev/CSharp/Udemy/MyLib/obj/Debug/net7.0/MyLib.AssemblyInfoInputs.cache
+/Users/lguedes/Dev/CSharp/Udemy/MyLib/obj/Debug/net7.0/MyLib.AssemblyInfo.cs
+/Users/lguedes/Dev/CSharp/Udemy/MyLib/obj/Debug/net7.0/MyLib.csproj.CoreCompileInputs.cache
+/Users/lguedes/Dev/CSharp/Udemy/MyLib/bin/Debug/net7.0/MyLib.deps.json
+/Users/lguedes/Dev/CSharp/Udemy/MyLib/bin/Debug/net7.0/MyLib.dll
+/Users/lguedes/Dev/CSharp/Udemy/MyLib/bin/Debug/net7.0/MyLib.pdb
+/Users/lguedes/Dev/CSharp/Udemy/MyLib/obj/Debug/net7.0/MyLib.dll
+/Users/lguedes/Dev/CSharp/Udemy/MyLib/obj/Debug/net7.0/refint/MyLib.dll
+/Users/lguedes/Dev/CSharp/Udemy/MyLib/obj/Debug/net7.0/MyLib.pdb
+/Users/lguedes/Dev/CSharp/Udemy/MyLib/obj/Debug/net7.0/ref/MyLib.dll
